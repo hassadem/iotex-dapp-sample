@@ -39,6 +39,7 @@
     "lodash": "^4.17.21",
     "mobx": "^6.2.0",
     "mobx-react-lite": "^3.2.0",
+    "mobx-utils": "^6.0.4",
     "numeral": "^2.0.6",
     "promise-retry": "^2.0.1",
     "query-string": "^7.0.1",
