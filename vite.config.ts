@@ -8,7 +8,8 @@ export default defineConfig({
     alias: {
       '~': path.resolve(__dirname, './'), // 根路径
       '@': path.resolve(__dirname, 'src'),
-      stream: 'stream-browserify'
+      stream: 'stream-browserify',
+      crypto: 'crypto-browserify'
     }
   },
   define: {
@@ -19,7 +20,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           core: ['react', 'react-dom', 'react-router-dom', 'mobx', 'mobx-react-lite', 'axios', 'bignumber.js'],
-          ethers: ['ethers', '@web3-react/core', '@web3-react/injected-connector']
+          ethers: ['ethers', '@web3-react/core', '@web3-react/injected-connector', 'web3-ledger-webusb-connector']
         }
       }
     },
