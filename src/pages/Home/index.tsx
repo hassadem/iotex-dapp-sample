@@ -22,7 +22,7 @@ export const Home = observer(() => {
           <Image src={'images/v2.png'} w={'100%'} />
         </Link>
         <Text mt={5}>
-          IoTeX Dapp {lang.t('sample')} V2
+          Mimo Chart V1
         </Text>
         <Flex mt={5}>
           {
